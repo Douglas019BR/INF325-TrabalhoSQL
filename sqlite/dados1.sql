@@ -1,0 +1,427 @@
+-- Inserindo dados na tabela User (50 registros únicos)
+INSERT INTO "User" (first_name, last_name, email, phone, birth_date, gender)
+VALUES 
+('John', 'Doe', 'john.doe1@example.com', '555-1231', '1990-01-01', 'male'),
+('Jane', 'Smith', 'jane.smith2@example.com', '555-1232', '1985-05-15', 'female'),
+('Alice', 'Johnson', 'alice.johnson3@example.com', '555-1233', '1992-08-23', 'female'),
+('Bob', 'Williams', 'bob.williams4@example.com', '555-1234', '1988-12-30', 'male'),
+('Charlie', 'Brown', 'charlie.brown5@example.com', '555-1235', '1993-02-10', 'male'),
+('Emily', 'Davis', 'emily.davis6@example.com', '555-1236', '1989-11-20', 'female'),
+('David', 'Wilson', 'david.wilson7@example.com', '555-1237', '1987-04-25', 'male'),
+('Sophia', 'Martinez', 'sophia.martinez8@example.com', '555-1238', '1991-07-13', 'female'),
+('Michael', 'Taylor', 'michael.taylor9@example.com', '555-1239', '1986-09-18', 'male'),
+('Laura', 'Anderson', 'laura.anderson10@example.com', '555-1240', '1994-03-22', 'female'),
+('Kevin', 'Moore', 'kevin.moore11@example.com', '555-1241', '1980-01-15', 'male'),
+('Isabella', 'Thomas', 'isabella.thomas12@example.com', '555-1242', '1982-06-05', 'female'),
+('Chris', 'Martin', 'chris.martin13@example.com', '555-1243', '1984-03-18', 'male'),
+('Olivia', 'Lee', 'olivia.lee14@example.com', '555-1244', '1990-08-12', 'female'),
+('Ethan', 'Walker', 'ethan.walker15@example.com', '555-1245', '1992-12-01', 'male'),
+('Charlotte', 'Hall', 'charlotte.hall16@example.com', '555-1246', '1987-07-22', 'female'),
+('Henry', 'Allen', 'henry.allen17@example.com', '555-1247', '1985-10-30', 'male'),
+('Amelia', 'Young', 'amelia.young18@example.com', '555-1248', '1993-04-17', 'female'),
+('Noah', 'Hernandez', 'noah.hernandez19@example.com', '555-1249', '1995-09-28', 'male'),
+('Ava', 'King', 'ava.king20@example.com', '555-1250', '1991-05-09', 'female'),
+('Liam', 'Perez', 'liam.perez21@example.com', '555-1251', '1990-07-11', 'male'),
+('Mia', 'Robinson', 'mia.robinson22@example.com', '555-1252', '1992-03-05', 'female'),
+('Lucas', 'Clark', 'lucas.clark23@example.com', '555-1253', '1987-02-14', 'male'),
+('Harper', 'Lewis', 'harper.lewis24@example.com', '555-1254', '1985-12-18', 'female'),
+('Elijah', 'Walker', 'elijah.walker25@example.com', '555-1255', '1989-09-25', 'male'),
+('Mason', 'White', 'mason.white26@example.com', '555-1256', '1991-11-13', 'male'),
+('Ella', 'Harris', 'ella.harris27@example.com', '555-1257', '1988-04-04', 'female'),
+('Jacob', 'Lopez', 'jacob.lopez28@example.com', '555-1258', '1993-06-07', 'male'),
+('Benjamin', 'Gonzalez', 'benjamin.gonzalez29@example.com', '555-1259', '1985-08-08', 'male'),
+('Emily', 'Carter', 'emily.carter30@example.com', '555-1260', '1990-09-21', 'female'),
+('Daniel', 'Rodriguez', 'daniel.rodriguez31@example.com', '555-1261', '1986-12-12', 'male'),
+('Matthew', 'Garcia', 'matthew.garcia32@example.com', '555-1262', '1994-03-23', 'male'),
+('Logan', 'Martinez', 'logan.martinez33@example.com', '555-1263', '1988-05-15', 'male'),
+('Madison', 'Jones', 'madison.jones34@example.com', '555-1264', '1992-10-30', 'female'),
+('Jack', 'Wilson', 'jack.wilson35@example.com', '555-1265', '1990-11-19', 'male'),
+('William', 'Anderson', 'william.anderson36@example.com', '555-1266', '1985-02-11', 'male'),
+('Victoria', 'Taylor', 'victoria.taylor37@example.com', '555-1267', '1987-07-07', 'female'),
+('James', 'Moore', 'james.moore38@example.com', '555-1268', '1989-08-28', 'male'),
+('Scarlett', 'Davis', 'scarlett.davis39@example.com', '555-1269', '1991-05-25', 'female'),
+('Oliver', 'Miller', 'oliver.miller40@example.com', '555-1270', '1993-06-29', 'male'),
+('Zoey', 'Thomas', 'zoey.thomas41@example.com', '555-1271', '1988-01-01', 'female'),
+('Lily', 'Martinez', 'lily.martinez42@example.com', '555-1272', '1994-07-09', 'female'),
+('Evelyn', 'Brown', 'evelyn.brown43@example.com', '555-1273', '1990-02-15', 'female'),
+('Nathan', 'Clark', 'nathan.clark44@example.com', '555-1274', '1995-12-19', 'male'),
+('Chloe', 'Walker', 'chloe.walker45@example.com', '555-1275', '1992-05-31', 'female'),
+('Dylan', 'Garcia', 'dylan.garcia46@example.com', '555-1276', '1987-03-22', 'male'),
+('Grace', 'Martinez', 'grace.martinez47@example.com', '555-1277', '1989-09-01', 'female'),
+('Ryan', 'Wilson', 'ryan.wilson48@example.com', '555-1278', '1988-04-13', 'male'),
+('Abigail', 'Hernandez', 'abigail.hernandez49@example.com', '555-1279', '1993-08-02', 'female'),
+('Joseph', 'Lopez', 'joseph.lopez50@example.com', '555-1280', '1994-11-04', 'male');
+
+-- Inserindo dados na tabela Seller (50 registros únicos)
+INSERT INTO "Seller" (document, user_id, description, rate)
+VALUES 
+('12345678901', 1, 'Seller of electronic products', 4.5),
+('98765432100', 2, 'Clothing seller', 4.7),
+('55566677788', 3, 'Home appliances seller', 4.6),
+('99988877766', 4, 'Furniture seller', 4.8),
+('44455566633', 5, 'Books seller', 4.9),
+('11223344556', 6, 'Gaming equipment seller', 4.4),
+('66778899001', 7, 'Sports goods seller', 4.2),
+('22334455667', 8, 'Kitchen utensils seller', 4.6),
+('77889900112', 9, 'Outdoor gear seller', 4.3),
+('33445566778', 10, 'Pet supplies seller', 4.7),
+('99887766554', 11, 'Garden tools seller', 4.5),
+('66554433221', 12, 'Office supplies seller', 4.6),
+('33221144556', 13, 'Car accessories seller', 4.4),
+('44556677889', 14, 'Art supplies seller', 4.8),
+('55667788990', 15, 'Jewelry seller', 4.9),
+('22331144556', 16, 'Toys seller', 4.4),
+('66778811223', 17, 'Bedding seller', 4.6),
+('33445588990', 18, 'Gourmet food seller', 4.5),
+('44556633445', 19, 'Handmade crafts seller', 4.8),
+('99887722334', 20, 'Beauty products seller', 4.6),
+('55443322119', 21, 'Music instruments seller', 4.3),
+('12322123321', 22, 'Collectibles seller', 4.6),
+('99882211334', 23, 'Footwear seller', 4.5),
+('33455443211', 24, 'Health products seller', 4.7),
+('44322155443', 25, 'Mobile accessories seller', 4.4),
+('66778811321', 26, 'Baby products seller', 4.6),
+('22331111322', 27, 'Luggage seller', 4.5),
+('55443322345', 28, 'Lighting seller', 4.6),
+('33422155123', 29, 'Watches seller', 4.7),
+('44322133444', 30, 'Eyewear seller', 4.4),
+('99881123455', 31, 'Home décor seller', 4.5),
+('55441123221', 32, 'Fitness products seller', 4.6),
+('66554499887', 33, 'Camping gear seller', 4.3),
+('33445566712', 34, 'Tactical gear seller', 4.6),
+('99884411221', 35, 'Fishing gear seller', 4.4),
+('22334466712', 36, 'Cycling gear seller', 4.6),
+('55443388999', 37, 'Photography equipment seller', 4.3),
+('99887733211', 38, 'Hiking gear seller', 4.7),
+('22331155443', 39, 'Electronics accessories seller', 4.5),
+('33445599887', 40, 'Gaming merchandise seller', 4.9),
+('44556688778', 41, 'Handbags seller', 4.7),
+('66778855443', 42, 'Specialty foods seller', 4.8),
+('11223355443', 43, 'Personalized gifts seller', 4.4),
+('99887711234', 44, 'Home improvement seller', 4.5),
+('44556699812', 45, 'Paintings seller', 4.7),
+('33422112344', 46, 'Glassware seller', 4.8),
+('99882233455', 47, 'Specialty drinks seller', 4.6),
+('55443322123', 48, 'Hobby goods seller', 4.4),
+('66778888911', 49, 'Antiques seller', 4.5),
+('33445522332', 50, 'Stationery seller', 4.6);
+
+-- Inserindo dados na tabela Customer (50 registros únicos)
+INSERT INTO "Customer" (document, user_id)
+VALUES 
+('12345678901', 1),
+('98765432100', 2),
+('55566677788', 3),
+('99988877766', 4),
+('44455566633', 5),
+('11223344556', 6),
+('66778899001', 7),
+('22334455667', 8),
+('77889900112', 9),
+('33445566778', 10),
+('99887766554', 11),
+('66554433221', 12),
+('33221144556', 13),
+('44556677889', 14),
+('55667788990', 15),
+('22331144556', 16),
+('66778811223', 17),
+('33445588990', 18),
+('44556633445', 19),
+('99887722334', 20),
+('55443322119', 21),
+('12322123321', 22),
+('99882211334', 23),
+('33455443211', 24),
+('44322155443', 25),
+('66778811321', 26),
+('22331111322', 27),
+('55443322345', 28),
+('33422155123', 29),
+('44322133444', 30),
+('99881123455', 31),
+('55441123221', 32),
+('66554499887', 33),
+('33445566712', 34),
+('99884411221', 35),
+('22334466712', 36),
+('55443388999', 37),
+('99887733211', 38),
+('22331155443', 39),
+('33445599887', 40),
+('44556688778', 41),
+('66778855443', 42),
+('11223355443', 43),
+('99887711234', 44),
+('44556699812', 45),
+('33422112344', 46),
+('99882233455', 47),
+('55443322123', 48),
+('66778888911', 49),
+('33445522332', 50);
+
+-- Inserindo dados na tabela Address (50 registros únicos)
+INSERT INTO "Address" (city, country, street, number, zip_code)
+VALUES 
+('New York', 'USA', '5th Avenue', '101', '10001'),
+('Los Angeles', 'USA', 'Sunset Boulevard', '200', '90001'),
+('Chicago', 'USA', 'Michigan Avenue', '303', '60601'),
+('Houston', 'USA', 'Main Street', '400', '77001'),
+('Phoenix', 'USA', 'Central Avenue', '500', '85001'),
+('Philadelphia', 'USA', 'Market Street', '600', '19101'),
+('San Antonio', 'USA', 'Broadway', '700', '78201'),
+('San Diego', 'USA', 'Park Boulevard', '800', '92101'),
+('Dallas', 'USA', 'Elm Street', '900', '75201'),
+('San Jose', 'USA', 'Santa Clara Street', '1000', '95101'),
+('Austin', 'USA', 'Congress Avenue', '1100', '73301'),
+('Jacksonville', 'USA', 'Riverside Avenue', '1200', '32099'),
+('Fort Worth', 'USA', 'Main Street', '1300', '76101'),
+('Columbus', 'USA', 'High Street', '1400', '43201'),
+('San Francisco', 'USA', 'Market Street', '1500', '94101'),
+('Indianapolis', 'USA', 'Meridian Street', '1600', '46201'),
+('Charlotte', 'USA', 'Trade Street', '1700', '28201'),
+('Seattle', 'USA', 'Pine Street', '1800', '98101'),
+('Denver', 'USA', 'Broadway', '1900', '80201'),
+('Boston', 'USA', 'Beacon Street', '2000', '02108'),
+('Las Vegas', 'USA', 'Las Vegas Boulevard', '2100', '89101'),
+('Miami', 'USA', 'Ocean Drive', '2200', '33101'),
+('Atlanta', 'USA', 'Peachtree Street', '2300', '30301'),
+('Nashville', 'USA', 'Broadway', '2400', '37201'),
+('Orlando', 'USA', 'International Drive', '2500', '32801'),
+('Memphis', 'USA', 'Beale Street', '2600', '38101'),
+('Portland', 'USA', 'Burnside Street', '2700', '97201'),
+('Oklahoma City', 'USA', 'Reno Avenue', '2800', '73101'),
+('Louisville', 'USA', 'Main Street', '2900', '40201'),
+('Baltimore', 'USA', 'Pratt Street', '3000', '21201'),
+('Washington', 'USA', 'Pennsylvania Avenue', '3100', '20001'),
+('El Paso', 'USA', 'Mesa Street', '3200', '79901'),
+('Milwaukee', 'USA', 'Wisconsin Avenue', '3300', '53201'),
+('Albuquerque', 'USA', 'Central Avenue', '3400', '87101'),
+('Tucson', 'USA', 'Speedway Boulevard', '3500', '85701'),
+('Fresno', 'USA', 'Fulton Street', '3600', '93701'),
+('Sacramento', 'USA', 'J Street', '3700', '95801'),
+('Kansas City', 'USA', 'Main Street', '3800', '64101'),
+('Mesa', 'USA', 'Main Street', '3900', '85201'),
+('Atlanta', 'USA', 'Peachtree Road', '4000', '30303'),
+('Virginia Beach', 'USA', 'Atlantic Avenue', '4100', '23451'),
+('Colorado Springs', 'USA', 'Cascade Avenue', '4200', '80901'),
+('Raleigh', 'USA', 'Fayetteville Street', '4300', '27601'),
+('Omaha', 'USA', 'Dodge Street', '4400', '68101'),
+('Miami Beach', 'USA', 'Collins Avenue', '4500', '33139'),
+('Minneapolis', 'USA', 'Nicollet Mall', '4600', '55401'),
+('Tulsa', 'USA', 'Main Street', '4700', '74101'),
+('New Orleans', 'USA', 'Canal Street', '4800', '70101'),
+('Arlington', 'USA', 'Ballpark Way', '4900', '76001'),
+('Wichita', 'USA', 'Douglas Avenue', '5000', '67201');
+
+-- Inserindo dados na tabela Address_User (50 registros únicos)
+INSERT INTO "Address_User" (address_id, user_id)
+VALUES 
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10),
+(11, 11),
+(12, 12),
+(13, 13),
+(14, 14),
+(15, 15),
+(16, 16),
+(17, 17),
+(18, 18),
+(19, 19),
+(20, 20),
+(21, 21),
+(22, 22),
+(23, 23),
+(24, 24),
+(25, 25),
+(26, 26),
+(27, 27),
+(28, 28),
+(29, 29),
+(30, 30),
+(31, 31),
+(32, 32),
+(33, 33),
+(34, 34),
+(35, 35),
+(36, 36),
+(37, 37),
+(38, 38),
+(39, 39),
+(40, 40),
+(41, 41),
+(42, 42),
+(43, 43),
+(44, 44),
+(45, 45),
+(46, 46),
+(47, 47),
+(48, 48),
+(49, 49),
+(50, 50);
+
+-- Inserindo dados na tabela Product (50 registros únicos)
+INSERT INTO "Product" (name, seller_id, image, thumbnail, description, value, amount, status, brand, rate)
+VALUES 
+('Laptop', 1, 'laptop.jpg', 'laptop_thumb.jpg', 'High-performance laptop', 1200.00, 10, 'available', 'TechBrand', 4.8),
+('T-Shirt', 2, 'tshirt.jpg', 'tshirt_thumb.jpg', 'Cotton t-shirt', 25.00, 100, 'available', 'ClothBrand', 4.3),
+('Washing Machine', 3, 'washing_machine.jpg', 'washing_machine_thumb.jpg', 'Front-load washing machine', 500.00, 5, 'available', 'HomeBrand', 4.5),
+('Sofa', 4, 'sofa.jpg', 'sofa_thumb.jpg', 'Comfortable 3-seater sofa', 800.00, 2, 'available', 'FurnitureBrand', 4.7),
+('Book', 5, 'book.jpg', 'book_thumb.jpg', 'Bestselling novel', 15.00, 50, 'available', 'BookBrand', 4.9),
+('Smartphone', 6, 'smartphone.jpg', 'smartphone_thumb.jpg', 'Latest model smartphone', 1000.00, 20, 'available', 'TechBrand', 4.6),
+('Jeans', 7, 'jeans.jpg', 'jeans_thumb.jpg', 'Denim jeans', 40.00, 150, 'available', 'ClothBrand', 4.2),
+('Refrigerator', 8, 'refrigerator.jpg', 'refrigerator_thumb.jpg', 'Double-door refrigerator', 1500.00, 3, 'available', 'HomeBrand', 4.8),
+('Bed', 9, 'bed.jpg', 'bed_thumb.jpg', 'King-size bed', 1200.00, 1, 'available', 'FurnitureBrand', 4.9),
+('Notebook', 10, 'notebook.jpg', 'notebook_thumb.jpg', 'Hardcover notebook', 10.00, 200, 'available', 'BookBrand', 4.7),
+('TV', 11, 'tv.jpg', 'tv_thumb.jpg', '55-inch OLED TV', 1500.00, 10, 'available', 'TechBrand', 4.8),
+('Jacket', 12, 'jacket.jpg', 'jacket_thumb.jpg', 'Leather jacket', 120.00, 50, 'available', 'ClothBrand', 4.5),
+('Microwave', 13, 'microwave.jpg', 'microwave_thumb.jpg', 'Digital microwave', 200.00, 10, 'available', 'HomeBrand', 4.6),
+('Table', 14, 'table.jpg', 'table_thumb.jpg', 'Dining table', 600.00, 5, 'available', 'FurnitureBrand', 4.8),
+('Magazine', 15, 'magazine.jpg', 'magazine_thumb.jpg', 'Monthly magazine', 5.00, 100, 'available', 'BookBrand', 4.2),
+('Headphones', 16, 'headphones.jpg', 'headphones_thumb.jpg', 'Wireless headphones', 250.00, 30, 'available', 'TechBrand', 4.7),
+('Shoes', 17, 'shoes.jpg', 'shoes_thumb.jpg', 'Running shoes', 90.00, 200, 'available', 'ClothBrand', 4.6),
+('Oven', 18, 'oven.jpg', 'oven_thumb.jpg', 'Electric oven', 700.00, 8, 'available', 'HomeBrand', 4.7),
+('Chair', 19, 'chair.jpg', 'chair_thumb.jpg', 'Office chair', 300.00, 20, 'available', 'FurnitureBrand', 4.6),
+('Pen', 20, 'pen.jpg', 'pen_thumb.jpg', 'Ballpoint pen', 2.00, 500, 'available', 'BookBrand', 4.5),
+('Camera', 21, 'camera.jpg', 'camera_thumb.jpg', 'DSLR camera', 1000.00, 15, 'available', 'TechBrand', 4.7),
+('Hat', 22, 'hat.jpg', 'hat_thumb.jpg', 'Summer hat', 25.00, 100, 'available', 'ClothBrand', 4.4),
+('Blender', 23, 'blender.jpg', 'blender_thumb.jpg', 'Kitchen blender', 150.00, 30, 'available', 'HomeBrand', 4.7),
+('Cabinet', 24, 'cabinet.jpg', 'cabinet_thumb.jpg', 'Storage cabinet', 500.00, 7, 'available', 'FurnitureBrand', 4.6),
+('Paper', 25, 'paper.jpg', 'paper_thumb.jpg', 'A4 paper pack', 10.00, 400, 'available', 'BookBrand', 4.6),
+('Smartwatch', 26, 'smartwatch.jpg', 'smartwatch_thumb.jpg', 'Smartwatch with GPS', 400.00, 25, 'available', 'TechBrand', 4.8),
+('Scarf', 27, 'scarf.jpg', 'scarf_thumb.jpg', 'Wool scarf', 30.00, 150, 'available', 'ClothBrand', 4.5),
+('Dishwasher', 28, 'dishwasher.jpg', 'dishwasher_thumb.jpg', 'Automatic dishwasher', 800.00, 12, 'available', 'HomeBrand', 4.7),
+('Wardrobe', 29, 'wardrobe.jpg', 'wardrobe_thumb.jpg', 'Bedroom wardrobe', 1000.00, 4, 'available', 'FurnitureBrand', 4.8),
+('Notebook', 30, 'laptop2.jpg', 'laptop_thumb2.jpg', 'Business laptop', 1300.00, 15, 'available', 'TechBrand', 4.6),
+('Pants', 31, 'pants.jpg', 'pants_thumb.jpg', 'Formal pants', 50.00, 120, 'available', 'ClothBrand', 4.5),
+('Toaster', 32, 'toaster.jpg', 'toaster_thumb.jpg', '2-slice toaster', 50.00, 100, 'available', 'HomeBrand', 4.7),
+('Mirror', 33, 'mirror.jpg', 'mirror_thumb.jpg', 'Full-length mirror', 300.00, 10, 'available', 'FurnitureBrand', 4.6),
+('Bookmark', 34, 'bookmark.jpg', 'bookmark_thumb.jpg', 'Metal bookmark', 5.00, 200, 'available', 'BookBrand', 4.5),
+('Speaker', 35, 'speaker.jpg', 'speaker_thumb.jpg', 'Bluetooth speaker', 150.00, 40, 'available', 'TechBrand', 4.7),
+('Gloves', 36, 'gloves.jpg', 'gloves_thumb.jpg', 'Winter gloves', 20.00, 180, 'available', 'ClothBrand', 4.5),
+('Coffee Maker', 37, 'coffee_maker.jpg', 'coffee_maker_thumb.jpg', 'Espresso machine', 250.00, 25, 'available', 'HomeBrand', 4.8),
+('Rug', 38, 'rug.jpg', 'rug_thumb.jpg', 'Living room rug', 600.00, 8, 'available', 'FurnitureBrand', 4.6),
+('Pen Case', 39, 'pen_case.jpg', 'pen_case_thumb.jpg', 'Leather pen case', 15.00, 100, 'available', 'BookBrand', 4.4),
+('Tablet', 40, 'tablet.jpg', 'tablet_thumb.jpg', '10-inch tablet', 600.00, 30, 'available', 'TechBrand', 4.7),
+('Dress', 41, 'dress.jpg', 'dress_thumb.jpg', 'Evening dress', 120.00, 70, 'available', 'ClothBrand', 4.6),
+('Vacuum Cleaner', 42, 'vacuum_cleaner.jpg', 'vacuum_cleaner_thumb.jpg', 'Bagless vacuum cleaner', 400.00, 20, 'available', 'HomeBrand', 4.8),
+('Desk', 43, 'desk.jpg', 'desk_thumb.jpg', 'Office desk', 700.00, 10, 'available', 'FurnitureBrand', 4.7),
+('Marker', 44, 'marker.jpg', 'marker_thumb.jpg', 'Permanent marker', 3.00, 300, 'available', 'BookBrand', 4.4),
+('Projector', 45, 'projector.jpg', 'projector_thumb.jpg', '4K projector', 1500.00, 10, 'available', 'TechBrand', 4.9),
+('Tie', 46, 'tie.jpg', 'tie_thumb.jpg', 'Silk tie', 40.00, 80, 'available', 'ClothBrand', 4.7),
+('Air Conditioner', 47, 'air_conditioner.jpg', 'air_conditioner_thumb.jpg', 'Split air conditioner', 1200.00, 10, 'available', 'HomeBrand', 4.8),
+('Book Shelf', 48, 'book_shelf.jpg', 'book_shelf_thumb.jpg', 'Wooden bookshelf', 800.00, 6, 'available', 'FurnitureBrand', 4.6),
+('Notebook', 49, 'journal.jpg', 'journal_thumb.jpg', 'Leather-bound journal', 30.00, 150, 'available', 'BookBrand', 4.5),
+('Drone', 50, 'drone.jpg', 'drone_thumb.jpg', 'Quadcopter drone', 900.00, 20, 'available', 'TechBrand', 4.8);
+
+-- Inserindo dados na tabela Category (50 registros únicos)
+INSERT INTO "Category" (name, parent)
+VALUES 
+('Electronics', NULL),
+('Clothing', NULL),
+('Home Appliances', NULL),
+('Furniture', NULL),
+('Books', NULL),
+('Laptops', 1),
+('Smartphones', 1),
+('Washing Machines', 3),
+('Sofas', 4),
+('Novels', 5),
+('Gaming', NULL),
+('Footwear', 2),
+('Kitchen Appliances', 3),
+('Outdoor Furniture', 4),
+('Comics', 5),
+('Wearables', 1),
+('Jeans', 2),
+('Small Appliances', 3),
+('Beds', 4),
+('Magazines', 5),
+('Audio Equipment', 1),
+('T-Shirts', 2),
+('Coffee Makers', 3),
+('Tables', 4),
+('Journals', 5),
+('Headphones', 1),
+('Shirts', 2),
+('Ovens', 3),
+('Wardrobes', 4),
+('School Supplies', 5),
+('Televisions', 1),
+('Hats', 2),
+('Dishwashers', 3),
+('Cabinets', 4),
+('Notebooks', 5),
+('Smartwatches', 1),
+('Gloves', 2),
+('Refrigerators', 3),
+('Chairs', 4),
+('Pens', 5),
+('Projectors', 1),
+('Scarves', 2),
+('Toasters', 3),
+('Mirrors', 4),
+('Bookmarks', 5),
+('Drones', 1),
+('Dresses', 2),
+('Vacuum Cleaners', 3),
+('Desks', 4),
+('Markers', 5);
+
+-- Inserindo dados na tabela Product_Category (50 registros únicos)
+INSERT INTO "Product_Category" (category_id, product_id)
+VALUES 
+(6, 1), -- Laptop in Laptops category
+(7, 6), -- Smartphone in Smartphones category
+(8, 3), -- Washing Machine in Washing Machines category
+(9, 4), -- Sofa in Sofas category
+(10, 5), -- Book in Novels category
+(11, 1), -- Gaming category for Laptop
+(12, 7), -- Footwear for Jeans
+(13, 3), -- Kitchen Appliances for Washing Machine
+(14, 4), -- Outdoor Furniture for Sofa
+(15, 5), -- Comics for Book
+(16, 6), -- Wearables for Smartphone
+(17, 7), -- Jeans for T-Shirt
+(18, 3), -- Small Appliances for Microwave
+(19, 4), -- Beds for Bed
+(20, 5), -- Magazines for Notebook
+(21, 1), -- Audio Equipment for Headphones
+(22, 7), -- T-Shirts for T-Shirt
+(23, 3), -- Coffee Makers for Microwave
+(24, 4), -- Tables for Table
+(25, 5), -- Journals for Pen
+(26, 6), -- Headphones for Smartphone
+(27, 7), -- Shirts for T-Shirt
+(28, 3), -- Ovens for Oven
+(29, 4), -- Wardrobes for Wardrobe
+(30, 5), -- School Supplies for Notebook
+(31, 6), -- Televisions for TV
+(32, 7), -- Hats for T-Shirt
+(33, 3), -- Dishwashers for Microwave
+(34, 4), -- Cabinets for Table
+(35, 5), -- Notebooks for Pen
+(36, 6), -- Smartwatches for Smartphone
+(37, 7), -- Gloves for T-Shirt
+(38, 3), -- Refrigerators for Microwave
+(39, 4), -- Chairs for Table
+(40, 5), -- Pens for Pen
+(41, 6), -- Projectors for TV
+(42, 7), -- Scarves for T-Shirt
+(43, 3), -- Toasters for Microwave
+(44, 4), -- Mirrors for Table
+(45, 5), -- Bookmarks for Pen
+(46, 6), -- Drones for Laptop
+(47, 7), -- Dresses for T-Shirt
+(48, 3), -- Vacuum Cleaners for Microwave
+(49, 4), -- Desks for Table
+(50, 5); -- Markers for Pen
+

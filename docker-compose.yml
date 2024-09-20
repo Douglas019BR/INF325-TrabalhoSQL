@@ -9,4 +9,3 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_DB: engsoft_unicamp
       POSTGRES_PASSWORD: 123456789
-

@@ -1,20 +1,3 @@
--- ORDER
-
-CREATE TABLE "Order" (
-    id SERIAL PRIMARY KEY,
-    customer_id INT NOT NULL,
-    customer_address_id INT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    status VARCHAR(10) CHECK (status IN ('pending', 'payed', 'waiting', 'canceled')),
-    CONSTRAINT fk_customer FOREIGN KEY (customer_id) REFERENCES "Customer"(id),
-    CONSTRAINT fk_address FOREIGN KEY (customer_address_id) REFERENCES "Address"(id)
-);
-
--- indexes 
-CREATE INDEX idx_order_customer_id ON "Order"(customer_id);
-CREATE INDEX idx_order_customer_address_id ON "Order"(customer_address_id);
-
 
 --  USER
 
@@ -38,7 +21,7 @@ CREATE TABLE "Seller" (
     document VARCHAR(20) NOT NULL,
     user_id INT REFERENCES "User"(id),
     description TEXT,
-    rate FLOAT
+    rate FLOAT,
     CONSTRAINT fk_seller_user FOREIGN KEY (user_id) REFERENCES "User"(id)
 );
 
@@ -51,7 +34,7 @@ CREATE INDEX idx_seller_user_id ON "Seller"(user_id);
 CREATE TABLE "Customer" (
     id SERIAL PRIMARY KEY,
     document VARCHAR(20) NOT NULL,
-    user_id INT REFERENCES "User"(id)
+    user_id INT REFERENCES "User"(id),
     CONSTRAINT fk_customer_user FOREIGN KEY (user_id) REFERENCES "User"(id)
 );
 -- indexes
@@ -83,6 +66,26 @@ CREATE TABLE "Address_User" (
 CREATE INDEX idx_address_user_address_id ON "Address_User"(address_id);
 CREATE INDEX idx_address_user_user_id ON "Address_User"(user_id);
 
+
+-- ORDER
+
+CREATE TABLE "Order" (
+    id SERIAL PRIMARY KEY,
+    customer_id INT NOT NULL,
+    customer_address_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    status VARCHAR(10) CHECK (status IN ('pending', 'payed', 'waiting', 'canceled')),
+    CONSTRAINT fk_customer FOREIGN KEY (customer_id) REFERENCES "Customer"(id),
+    CONSTRAINT fk_address FOREIGN KEY (customer_address_id) REFERENCES "Address"(id)
+);
+
+-- indexes 
+CREATE INDEX idx_order_customer_id ON "Order"(customer_id);
+CREATE INDEX idx_order_customer_address_id ON "Order"(customer_address_id);
+
+
+
 -- Order x User (n X 1)
 
 CREATE TABLE "Order_User" (
@@ -109,7 +112,7 @@ CREATE TABLE "Product" (
     amount INT,
     status VARCHAR(20),
     brand VARCHAR(100),
-    rate FLOAT
+    rate FLOAT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT fk_seller FOREIGN KEY (seller_id) REFERENCES "Seller"(id)
