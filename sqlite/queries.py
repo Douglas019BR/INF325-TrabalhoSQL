@@ -1,3 +1,4 @@
+
 import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -72,7 +73,22 @@ def product_sales_by_region_and_gender():
 
 def plot_product_sales_by_region_and_gender(df):
     plt.figure(figsize=(10,6))
-    sns.scatterplot(data=df, x='region', y='total_quantity_sold', hue='gender', style='product_name', markers=True)
+    
+    # Mapeamento de figuras geométricas para os produtos
+    product_styles = ['o', 's', 'D', '^', 'v', '<', '>', 'p', 'h', '*']  # Usar até 10 símbolos
+    unique_products = df['product_name'].unique()[:10]  # Pegar os 10 primeiros produtos
+    style_dict = {product: product_styles[i] for i, product in enumerate(unique_products)}
+    
+    sns.scatterplot(
+        data=df, 
+        x='region', 
+        y='total_quantity_sold', 
+        hue='gender', 
+        style='product_name', 
+        markers=style_dict, 
+        s=100  # Tamanho dos pontos pode ser ajustado
+    )
+    
     plt.title('Top 10 Produtos Mais Vendidos por Região e Gênero')
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
